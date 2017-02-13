@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace HTMLParser {
     /// <summary>
-    /// Abstract class that defines the common interface for all HTML elements like tag and text
+    /// Abstract class that defines common interface for all HTML elements like tag and text
     /// Implemented as a Composer pattern
-    /// Presents html document as a tree where tags are branches and text are leaves
+    /// Presents html document as a tree where tags are branches and text sections are leaves
     /// </summary>
     public abstract class HTMLElement {
 
